@@ -20,21 +20,21 @@ auth.set_access_token(ACCESS_TOKEN, ACCESS_SECRET)
 api = tweepy.API(auth)
 
 
-list1file = urllib2.urlopen(
-    "https://raw.githubusercontent.com/the-Dakta/GameBot/master/genres_list."
-    "json")
+list1file = open('genres_list.json')
+#     "https://raw.githubusercontent.com/the-Dakta/GameBot/master/genres_list."
+#     "json")
 
 list1read = list1file.read()
 
-list2file = urllib2.urlopen(
-    "https://raw.githubusercontent.com/the-Dakta/GameBot/master/games_list."
-    "json")
+list2file = open('games_list.json')
+#     "https://raw.githubusercontent.com/the-Dakta/GameBot/master/games_list."
+#     "json")
 
 list2read = list2file.read()
 
 # Create Python-readable lists of items in JSON files
-list1 = json.loads(list1read)['genres']
-list2 = json.loads(list2read)['games_list']
+list1 = json.loads(list1read)["genres"]
+list2 = json.loads(list2read)["games_list"]
 
 
 # Repeatable game idea generator
