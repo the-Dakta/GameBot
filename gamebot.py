@@ -20,10 +20,16 @@ auth.set_access_token(ACCESS_TOKEN, ACCESS_SECRET)
 api = tweepy.API(auth)
 
 
-list1file = open('genres_list.json')
+list1file = urllib2.urlopen(
+    "https://raw.githubusercontent.com/the-Dakta/GameBot/master/genres_list."
+    "json")
+
 list1read = list1file.read()
 
-list2file = open('games_list.json')
+list2file = urllib2.urlopen(
+    "https://raw.githubusercontent.com/the-Dakta/GameBot/master/games_list."
+    "json")
+
 list2read = list2file.read()
 
 # Create Python-readable lists of items in JSON files
