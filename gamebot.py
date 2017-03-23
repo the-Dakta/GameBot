@@ -41,7 +41,7 @@ list2 = json.loads(list2read)["games_list"]
 idealist = []
 counter = 0
 
-while counter < 1:  # Change 2 to however many poems you want to produce
+while counter < 200:  # Change 2 to however many games you want to produce
 
     # Pick random numbers
     list1num = randint(0, len(list1) - 1)
@@ -67,7 +67,7 @@ while counter < 1:  # Change 2 to however many poems you want to produce
 for line in idealist:
     api.update_status(line)
     # print line
-    time.sleep(900)  # Sleep for 15 seconds
+    time.sleep(900)  # Sleep for 15 minutes
 
 
 print '[All done!]'
