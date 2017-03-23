@@ -1,0 +1,60 @@
+action
+platformer
+FPS
+third-person shooter
+fighting games
+beat 'em up
+stealth game
+survival games
+action-adventure
+survival horror
+metroidvania
+adventure
+text adventure
+graphic adventure
+visual novel
+interactive movie
+real-time 3d adventure
+role-playing
+action RPG
+MMORPG
+roguelike
+tactical RPG
+sandbox RPG
+fantasy
+simulation
+construction and management simulation
+life simulation
+vehicle simulation
+strategy
+4x
+artillery
+real-time strategy 
+real-time tactics 
+multiplayer online battle arena 
+tower defense
+turn-based strategy
+turn-based tactics
+wargame
+grand strategy wargame
+sports
+racing
+competitive
+sports-based fighting
+MMO
+casual
+music
+party
+programming
+logic
+trivia
+board
+card
+idle
+advertising
+art
+christian
+educational
+electronic sports
+exercise
+serious
