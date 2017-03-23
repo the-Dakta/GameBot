@@ -54,7 +54,7 @@ while counter < 200:  # Change 2 to however many games you want to produce
     third = list2[list3num]
 
     # Fill in the blanks of the poem
-    idea = 'It\'s a %s game that\'s like %s + %s'  \
+    idea = 'It\'s %s game that\'s like %s + %s'  \
            % (first, second, third)
 
     print idea
