@@ -54,7 +54,7 @@ while counter < 200:  # Change 2 to however many games you want to produce
     third = list2[list3num]
 
     # Fill in the blanks of the poem
-    idea = 'It\'s %s game that\'s like %s + %s'  \
+    idea = 'It\'s %s game that\'s like %s + %s! #gameideas #gamedev'  \
            % (first, second, third)
 
     print idea
@@ -67,7 +67,7 @@ while counter < 200:  # Change 2 to however many games you want to produce
 for line in idealist:
     api.update_status(line)
     # print line
-    time.sleep(900)  # Sleep for 15 minutes
+    time.sleep(1800)  # Sleep for 30 minutes
 
 
 print '[All done!]'
