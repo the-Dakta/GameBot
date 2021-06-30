@@ -1,13 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# Mad Lib Maker!
-
-# This script will generate mad-libs based off of a William Carlos
-# Williams poem, 'The Red Wheelbarrow.' Each poem will then be
-# tweeted by your bot account.
-
-# Housekeeping: do not edit
 import json
 import io
 import tweepy
